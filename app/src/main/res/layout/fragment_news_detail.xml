@@ -7,7 +7,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="250dp">
+        android:layout_height="270dp">
 
         <ImageView
             android:id="@+id/imvBanner"
@@ -25,21 +25,25 @@
             android:id="@+id/tvTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_above="@+id/tvAuthorPublisherDate"
             android:padding="20dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            tools:text="titladasasdasej,\ndsasdasdasds\ndsfe" />
+
+        <TextView
+            android:id="@+id/tvAuthorPublisherDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:textColor="@color/white"
-            tools:text="titladasasdasej,\ndsasdasdasds\ndsfe"/>
+            android:textSize="11sp"
+            android:paddingBottom="6dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            tools:text="asnubfsd"/>
 
     </RelativeLayout>
-
-    <TextView
-        android:id="@+id/tvAuthorPublisherDate"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="6dp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        tools:text="asnubfsd"/>
 
     <TextView
         android:id="@+id/tvContent"
