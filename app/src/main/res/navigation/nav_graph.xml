@@ -22,4 +22,9 @@
             app:argType="com.test.newsapp.data.models.News" />
     </fragment>
 
+    <fragment
+        android:id="@+id/newsPreviewFragment"
+        android:name="com.test.newsapp.presentation.news_preview.NewsPreviewFragment"
+        android:label="NewsPreviewFragment" />
+
 </navigation>
